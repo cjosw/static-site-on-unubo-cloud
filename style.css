@@ -1,0 +1,262 @@
+@import url("//hello.myfonts.net/count/34470e");
+@font-face {font-family: 'AvenirLT-Light';src: url('/fonts/34470E_0_0.eot');src: url('/fonts/34470E_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/34470E_0_0.woff2') format('woff2'),url('/fonts/34470E_0_0.woff') format('woff'),url('/fonts/34470E_0_0.ttf') format('truetype');}
+
+html, body{
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'AvenirLT-Light';
+  font-weight: normal;
+  font-style: normal;
+  margin: 0;
+  color: #081A35;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: #0F80EF;
+  color: #FFF;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #081A35;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+.card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: calc(100% - 40px);
+  max-width: 500px;
+  background-color: #FFF;
+  border-radius: 4px;
+  box-shadow: 0 30px 35px -20px rgba(0, 0, 0, 0.1);
+}
+
+.card .image-outer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #E5E5E5;
+  width: 100%;
+}
+
+.card .image-outer img {
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+}
+
+.card .copy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+@media (max-width: 599px) {
+  .card .image-outer {
+    border-bottom: 1px solid #E5E5E5;
+  }
+
+  .card .copy {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 600px) {
+  .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  }
+
+  .card .image-outer {
+    width: 35%;
+  }
+
+  .card .copy {
+    padding: 60px;
+  }
+}
+
+/* --------------------------------------------------
+static
+-------------------------------------------------- */
+.build-static {
+  background: rgb(221,226,240);
+  background: -moz-linear-gradient(135deg, rgba(221,226,240,1) 0%, rgba(160,171,202,1) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(221,226,240,1) 0%, rgba(160,171,202,1) 100%);
+  background: linear-gradient(135deg, rgba(221,226,240,1) 0%, rgba(160,171,202,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dde2f0",endColorstr="#a0abca",GradientType=1);
+}
+
+.build-static .github-corner svg {
+  fill: #7D8599;
+}
+
+
+/* --------------------------------------------------
+node.js
+-------------------------------------------------- */
+.build-node-js {
+  background: rgb(132,240,126);
+  background: -moz-linear-gradient(135deg, rgba(132,240,126,1) 0%, rgba(97,184,166,1) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(132,240,126,1) 0%, rgba(97,184,166,1) 100%);
+  background: linear-gradient(135deg, rgba(132,240,126,1) 0%, rgba(97,184,166,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#84f07e",endColorstr="#61b8a6",GradientType=1);
+}
+
+.build-node-js .github-corner svg {
+  fill: #449B7A;
+}
+
+/* --------------------------------------------------
+next.js
+-------------------------------------------------- */
+.build-next-js {
+  background: rgb(133,206,231);
+  background: -moz-linear-gradient(135deg, rgba(133,206,231,1) 0%, rgba(69,138,210,1) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(133,206,231,1) 0%, rgba(69,138,210,1) 100%);
+  background: linear-gradient(135deg, rgba(133,206,231,1) 0%, rgba(69,138,210,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#85cee7",endColorstr="#458ad2",GradientType=1);
+}
+
+.build-next-js .github-corner svg {
+  fill: #397FBE;
+}
+
+/* --------------------------------------------------
+vue.js
+-------------------------------------------------- */
+.build-vue-js {
+  background: rgb(142,234,203);
+  background: -moz-linear-gradient(135deg, rgba(142,234,203,1) 0%, rgba(81,190,145,1) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(142,234,203,1) 0%, rgba(81,190,145,1) 100%);
+  background: linear-gradient(135deg, rgba(142,234,203,1) 0%, rgba(81,190,145,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8eeacb",endColorstr="#51be91",GradientType=1);
+}
+
+.build-vue-js .github-corner svg {
+  fill: #3B9F78;
+}
+
+/* --------------------------------------------------
+angular
+-------------------------------------------------- */
+.build-angular {
+  background: rgb(221,57,93);
+  background: -moz-linear-gradient(135deg, rgba(221,57,93,1) 0%, rgba(173,51,69,1) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(221,57,93,1) 0%, rgba(173,51,69,1) 100%);
+  background: linear-gradient(135deg, rgba(221,57,93,1) 0%, rgba(173,51,69,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dd395d",endColorstr="#ad3345",GradientType=1);
+}
+
+.build-angular .github-corner svg {
+  fill: #A42B3E;
+}
+
+/* --------------------------------------------------
+react
+-------------------------------------------------- */
+.build-react {
+  background: rgb(167,238,242);
+  background: -moz-linear-gradient(135deg, rgba(167,238,242,1) 0%, rgba(79,164,224,1) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(167,238,242,1) 0%, rgba(79,164,224,1) 100%);
+  background: linear-gradient(135deg, rgba(167,238,242,1) 0%, rgba(79,164,224,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a7eef2",endColorstr="#4fa4e0",GradientType=1);
+}
+
+.build-react .github-corner svg {
+  fill: #298BBF;
+}
+
+/* --------------------------------------------------
+java
+-------------------------------------------------- */
+.build-java {
+  background: rgb(232,49,74);
+  background: -moz-linear-gradient(135deg, rgba(232,49,74,1) 0%, rgba(212,73,44,1) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(232,49,74,1) 0%, rgba(212,73,44,1) 100%);
+  background: linear-gradient(135deg, rgba(232,49,74,1) 0%, rgba(212,73,44,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e8314a",endColorstr="#d4492c",GradientType=1);
+}
+
+.build-java .github-corner svg {
+  fill: #AC2B20;
+}
+
+/* --------------------------------------------------
+go
+-------------------------------------------------- */
+.build-go {
+  background: rgb(42,218,228);
+  background: -moz-linear-gradient(135deg, rgba(42,218,228,1) 0%, rgba(27,198,177,1) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(42,218,228,1) 0%, rgba(27,198,177,1) 100%);
+  background: linear-gradient(135deg, rgba(42,218,228,1) 0%, rgba(27,198,177,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2adae4",endColorstr="#1bc6b1",GradientType=1);
+}
+
+.build-go .github-corner svg {
+  fill: #17B7A8;
+}
+
+/* --------------------------------------------------
+python
+-------------------------------------------------- */
+.build-python {
+  background: rgb(255,226,105);
+  background: -moz-linear-gradient(135deg, rgba(255,226,105,1) 0%, rgba(255,152,75,1) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(255,226,105,1) 0%, rgba(255,152,75,1) 100%);
+  background: linear-gradient(135deg, rgba(255,226,105,1) 0%, rgba(255,152,75,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffe269",endColorstr="#ff984b",GradientType=1);
+}
+
+.build-python .github-corner svg {
+  fill: #EA8D33;
+}
+
+/* --------------------------------------------------
+ruby
+-------------------------------------------------- */
+.build-ruby {
+  background: rgb(230,47,72);
+  background: -moz-linear-gradient(135deg, rgba(230,47,72,1) 0%, rgba(212,44,100,1) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(230,47,72,1) 0%, rgba(212,44,100,1) 100%);
+  background: linear-gradient(135deg, rgba(230,47,72,1) 0%, rgba(212,44,100,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e62f48",endColorstr="#d42c64",GradientType=1);
+}
+
+.build-ruby .github-corner svg {
+  fill: #B0243A;
+}
