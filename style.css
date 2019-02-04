@@ -1,5 +1,4 @@
-@import url("//hello.myfonts.net/count/34470e");
-@font-face {font-family: 'AvenirLT-Light';src: url('/fonts/34470E_0_0.eot');src: url('/fonts/34470E_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/34470E_0_0.woff2') format('woff2'),url('/fonts/34470E_0_0.woff') format('woff'),url('/fonts/34470E_0_0.ttf') format('truetype');}
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600');
 
 html, body{
   width: 100%;
@@ -7,7 +6,7 @@ html, body{
   font-size: 15px;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
-  font-family: 'AvenirLT-Light';
+  font-family: 'Muli', sans-serif;
   font-weight: normal;
   font-style: normal;
   margin: 0;
