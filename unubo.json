@@ -1,9 +1,0 @@
-{
-  "version": 1,
-  "builds": [
-    {
-      "src": "public",
-      "use": "@unubo/static"
-    }
-  ]
-}
